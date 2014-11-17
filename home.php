@@ -169,7 +169,7 @@ if(isset($_POST['Emp_id']) && !empty($_POST['Emp_id']) && isset($_POST['Password
                     <fieldset>
 
                         <label for="name"><div class="color">ATM Number</div></label>
-                        <input type="text" id="ATM_NO" name="ATM_NO" placeholder="Your ATM Number">
+                        <input type="text" id="ATM_NO" name="ATM_NO" placeholder="Your ATM Number" required>
 
                         <label for="password"><div class="color">PIN</div></label>
                         <input type="password" id="PIN" name="PIN" placeholder="Your PIN">
